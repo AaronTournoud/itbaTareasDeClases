@@ -1,5 +1,6 @@
 import './App.css';
 import  TaskList  from "../src/components/TaskList";
+import OperadorTernario2 from './components/operadorTernario2';
 
 function App() {
       const tareasIniciales = [
@@ -11,7 +12,12 @@ function App() {
     <div>
       <h1>Mis tareas</h1>
       <TaskList tasks={tareasIniciales} />
+      <div className="App">
+      <OperadorTernario2 />
+      </div>
     </div>
+    
+    
   );
 }
 
